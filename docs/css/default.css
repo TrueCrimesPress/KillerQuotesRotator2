@@ -11,6 +11,15 @@
 	font-weight: normal;
 	font-style: normal;
 }
+@font-face {
+    font-family: 'true_crimesregular';
+    src: url('/github.com/TrueCrimesPress/KillerQuotesRotator2/raw/master/docs/fonts/crimes-webfont.woff2') format('woff2'),
+         url('//github.com/TrueCrimesPress/KillerQuotesRotator2/raw/master/docs/fonts/crimes-webfont.woff') format('woff'),
+		 url('//github.com/TrueCrimesPress/KillerQuotesRotator2/raw/master/docs/fonts/crimes-webfont.ttf') format('tff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 body, html { font-size: 100%; 	padding: 0; margin: 0;}
 
@@ -35,7 +44,7 @@ body, html { font-size: 100%; 	padding: 0; margin: 0;}
 }
 
 body {
-    font-family: 'Lato', Calibri, Arial, sans-serif;
+    font-family: 'true_crimesregular', Arial, sans-serif;
     color: #47a3da;
 
 }
