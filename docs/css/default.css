@@ -13,9 +13,9 @@
 }
 @font-face {
     font-family: 'true_crimesregular';
-    src: url('/github.com/TrueCrimesPress/KillerQuotesRotator2/raw/master/docs/fonts/crimes-webfont.woff2') format('woff2'),
+    src: url('//github.com/TrueCrimesPress/KillerQuotesRotator2/raw/master/docs/fonts/crimes-webfont.woff2') format('woff2'),
          url('//github.com/TrueCrimesPress/KillerQuotesRotator2/raw/master/docs/fonts/crimes-webfont.woff') format('woff'),
-		 url('//github.com/TrueCrimesPress/KillerQuotesRotator2/raw/master/docs/fonts/crimes-webfont.ttf') format('tff');
+	 url('//github.com/TrueCrimesPress/KillerQuotesRotator2/raw/master/docs/fonts/crimes-webfont.ttf') format('tff');
     font-weight: normal;
     font-style: normal;
 
