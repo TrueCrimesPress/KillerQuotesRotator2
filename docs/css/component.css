@@ -3,7 +3,8 @@
 	margin: 3em auto 5em auto;
 	max-width: 800px;
 	width: 100%;
-
+	max-height: 400px;
+	height: 100%;
 }
 
 .cbp-qtrotator .cbp-qtcontent {
