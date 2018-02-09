@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Killer Quotes Rotator</title>
+		<meta name="description" content="Killer Quotes Rotator" />
+		<meta name="keywords" content="quotes rotator, content rotator, jquery, javascript, fade in, fade out, css3, component, html, web development, blockquote" />
+		<meta name="author" content="True Crimes Press" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="main">
+				<div id="cbp-qtrotator" class="cbp-qtrotator">
+					<div class="cbp-qtcontent">
+						<blockquote>
+						  <p>What’s one less person on the face of the earth, anyway?</p>
+						  <footer>Ted Bundy</footer>
+						</blockquote>
+					</div>
+					<div class="cbp-qtcontent">
+						<blockquote>
+						  <p>I’ve got to start eating at home more.</p>
+						  <footer>Jeffrey Dahmer</footer>
+						</blockquote>
+					</div>
+					<div class="cbp-qtcontent">
+						<blockquote>
+						  <p>The only thing they can get me for is running a funeral parlor without a license.</p>
+						  <footer>John Wayne Gacy</footer>
+						</blockquote>
+					</div>
+					<div class="cbp-qtcontent">
+						<img src="images/4.jpg" alt="img04" />
+						<blockquote>
+						  <p>My body will not be a tomb for other creatures.</p>
+						  <footer>Leonardo Da Vinci</footer>
+						</blockquote>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="js/jquery.cbpQTRotator.min.js"></script>
+		<script>
+			$( function() {
+				/*
+				- how to call the plugin:
+				$( selector ).cbpQTRotator( [options] );
+				- options:
+				{
+					// default transition speed (ms)
+					speed : 1200,
+					// default transition easing
+					easing : 'ease',
+					// rotator interval (ms)
+					interval : 8000
+				}
+				- destroy:
+				$( selector ).cbpQTRotator( 'destroy' );
+				*/
+
+				$( '#cbp-qtrotator' ).cbpQTRotator();
+
+			} );
+		</script>
+	</body>
+</html>
